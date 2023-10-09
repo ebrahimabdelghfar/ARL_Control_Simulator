@@ -5,7 +5,7 @@
 </p>
 
 ## Objective 
-The Objective of this simulator to act as learning platform for the ARL workshop to make the student apply their algorithim for pathplanning and pendulum balancing
+The Objective of this simulator to act as learning platform for the ARL workshop to make the student apply their algorithim for path tracking and pendulum balancing
 ## Topics 
 ```
 /CarOdom # used to publish the car position relative to the world in meter
