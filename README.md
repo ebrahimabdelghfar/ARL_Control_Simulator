@@ -8,7 +8,10 @@
 The Objective of this simulator to act as learning platform for the ARL workshop to make the student apply their algorithim for path tracking and pendulum balancing
 ## Topics 
 ```
-/CarOdom # used to publish the car position relative to the world in meter
+/CarVel # used to publish the car position relative to the world in meter
+  # Msg_Type: geometry_msgs/msg/Vector3
+
+/CarOdom # used to publish the car position relative to the world in meter/sec
   # Msg_Type: geometry_msgs/msg/Vector3
 
 /PendulumAngle # used to publish the pendulum angle position in rad
@@ -20,6 +23,6 @@ The Objective of this simulator to act as learning platform for the ARL workshop
 /SteeringAngle #used to subscribe the steering angle position in rad
   #Msg_Type: std_msgs/msg/Float64
 
-/cmd_vel #used to publish the motor velocicty position in rad/sec
+/cmd_torque #used to publish the motor velocicty position in rad/sec
   #Msg_Type: std_msgs/msg/Float64
 ```
