@@ -23,6 +23,6 @@ The Objective of this simulator to act as learning platform for the ARL workshop
 /SteeringAngle #used to subscribe the steering angle position in rad
   #Msg_Type: std_msgs/msg/Float64
 
-/cmd_torque #used to publish the motor velocicty position in rad/sec
+/cmd_torque #used to subscribe the motor velocicty position in n.m
   #Msg_Type: std_msgs/msg/Float64
 ```
